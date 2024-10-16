@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Resources</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f4f8; /* Light background */
+            color: #333; /* Dark text */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Header styles */
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            color: #2c3e50; /* Darker shade */
+        }
+
+        /* Button styles */
+        .btn {
+            padding: 15px 25px;
+            font-size: 1.1em;
+            color: #ffffff;
+            background: #3498db; /* Default button color */
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background 0.3s ease;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            background: #2980b9; /* Darker shade on hover */
+            transform: translateY(-3px);
+        }
+
+        /* Premium button styles */
+        .btn-premium {
+            background: linear-gradient(45deg, #ffd700, #f1c40f); /* Gold gradient */
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.6);
+            font-weight: bold;
+        }
+
+        .btn-premium:hover {
+            background: linear-gradient(45deg, #f1c40f, #e0bf00); /* Inverted gradient on hover */
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Study Resources</h1>
+
+    <!-- Regular buttons -->
+
+    <button class="btn" onclick="window.open('https://mysource0.github.io/resources/')">Resources</button>
+    <button class="btn" onclick="window.open('https://www.freecodecamp.org/')">Resource 2</button>
+    
+    <!-- Premium button -->
+    <button class="btn btn-premium" onclick="window.open('https://secrettoseven7.github.io/dpx/')">Premium Resource</button>
+
+</body>
+</html>
